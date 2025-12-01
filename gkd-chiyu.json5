@@ -10,63 +10,6 @@
   categories: [{key:0,name:'开屏广告',enable:true},{key:1,name:'青少年模式',enable:false},{key:2,name:'更新提示',enable:false},{key:3,name:'评价提示',enable:false},{key:4,name:'通知提示',enable:false},{key:5,name:'权限提示',enable:false},{key:6,name:'局部广告',enable:false},{key:7,name:'全屏广告',enable:false},{key:8,name:'分段广告',enable:false},{key:9,name:'功能类',enable:false},{key:10,name:'其他',enable:false}],//此订阅的应用规则分类列表
     globalGroups: [],//全局规则组列表
   apps: [
-{ id: 'com.luna.music',
-  name: '汽水音乐',
-  groups: [
-    {
-      key: 1,
-      name: '领取vip关闭',
-      desc: '池与',
- actionMaximum:1,
-matchTime: 5000,
-      rules: [
-        {
-          fastQuery: true,
-          activityIds: null,
-          matches: '[vid="fvl"]',
-        },
-      ],
-    },
-  ],
-}
-  {id: 'com.luna.music',
-  name: '汽水音乐',
-  groups: [
-    {
-      key: 2,
-      name: '关闭抖音推荐',
-      desc: '池与',
-      actionMaximum:1,
-matchTime: 5000,
-      rules: [
-        {
-          fastQuery: true,
-          activityIds: 'com.luna.biz.main.main.MainActivity',
-          matches: '[vid="gom"]',
-        },
-      ],
-    },
-  ],
-} 
-    
-{  id: 'com.tencent.mtt',
-  name: 'QQ浏览器',
-  groups: [
-    {
-      key: 1,
-    name: '开屏广告',
-    desc: '池与',
-    actionMaximum: 1,
-    resetMatch: 'app',
-      rules: [
-        {
-          fastQuery: true,
-          activityIds: null,
-          matches: '@[name="android.view.View"] < * >4 [text="向上滑动或点击按钮种花"]',
-        },
-      ],
-    },
-  ],
-}
 
 }
+
