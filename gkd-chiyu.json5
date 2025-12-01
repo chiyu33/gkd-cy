@@ -1,41 +1,13 @@
+// gkd.json5
 {
-  "id": "your-unique-id-123", // 自定义唯一ID（如英文+数字组合）
-  "name": "我的个性化GKD规则", // 订阅名称（可自定义）
-  "version": "1.0.0", // 版本号（后续更新可递增）
-  "author": "你的昵称", // 作者名
-  "description": "过滤APP开屏广告、弹窗广告", // 订阅描述
-  "updateUrl": "https://gist.github.com/你的用户名/你的GistID/raw/你的文件名.json5", // 后续更新用的raw链接
-  "apps": [
-    // 应用1：微信（示例：过滤视频号弹窗）
-    {
-      "id": "com.tencent.mm", // 应用包名（可通过APP信息查询）
-      "name": "微信", // 应用名称
-      "rules": [
-        {
-          "id": "wechat-video-pop",
-          "name": "关闭视频号弹窗",
-          "pattern": ".*视频号.*立即观看.*", // 匹配弹窗文本（支持正则）
-          "action": "click", // 动作：click（点击关闭）/ hide（隐藏）
-          "xpath": "//*[contains(@text,'关闭') or contains(@text,'取消')]", // 关闭按钮的XPath（可通过GKD抓包获取）
-          "delay": 1000 // 延迟执行（毫秒，避免误触）
-        }
-      ]
-    },
-    // 应用2：抖音（示例：过滤开屏广告）
-    {
-      "id": "com.ss.android.ugc.aweme",
-      "name": "抖音",
-      "rules": [
-        {
-          "id": "douyin-splash-ad",
-          "name": "跳过开屏广告",
-          "pattern": ".*跳过.*\\d+秒.*",
-          "action": "click",
-          "xpath": "//*[contains(@text,'跳过')]",
-          "delay": 2000
-        }
-      ]
-    },
-    // 可添加更多应用（复制上面的app对象，替换包名和规则）
-  ]
+  id: 888,
+  name: '姹犱笌GKD璁㈤槄',
+  version: 0,
+  author: '姹犱笌',
+  updateUrl: 'https://raw.githubusercontent.com/chiyu33/gkd-cy/refs/heads/main/gkd-chiyu.json5',
+  checkUpdateUrl: 'https://gist.github.com/lisonge/3f5693182ad4ef5e307be760dba22bcb/raw/gkd.json5',
+  supportUri: 'https://gkd.li/',
+  categories: [],
+  globalGroups: [],
+  apps: [],
 }
