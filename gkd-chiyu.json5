@@ -2,12 +2,14 @@
 {
   id: 888,
   name: '池与GKD订阅',
-  version: 0,
+  version: 1,
   author: '池与',
-  updateUrl: 'https://raw.githubusercontent.com/chiyu33/gkd-cy/refs/heads/main/gkd-chiyu.json5',
-  checkUpdateUrl: 'https://gist.github.com/lisonge/3f5693182ad4ef5e307be760dba22bcb/raw/gkd.json5',
-  supportUri: 'https://gkd.li/',
-  categories: [],
-  globalGroups: [],
-  apps: [],
+  updateUrl: 'https://hub.gitmirror.com/https://raw.githubusercontent.com/chiyu33/gkd-cy/refs/heads/main/gkd-chiyu.json5',
+  //checkUpdateUrl: 'https://gist.github.com/lisonge/3f5693182ad4ef5e307be760dba22bcb/raw/gkd.json5',
+  //supportUri: 'https://gkd.li/',
+  categories: [],//此订阅的应用规则分类列表
+  globalGroups: [],//全局规则组列表
+  apps: [],//此订阅的应用列表
+
+
 }
