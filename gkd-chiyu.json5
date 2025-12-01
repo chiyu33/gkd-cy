@@ -9,63 +9,8 @@
   //supportUri: 'https://gkd.li/',
   categories: [],//此订阅的应用规则分类列表
     globalGroups: [],//全局规则组列表
-  apps: [
- { id: 'com.luna.music',
-  name: '汽水音乐',
-  groups: [
-    {
-      key: 1,
-      name: '领取vip关闭',
-      desc: '池与',
- actionMaximum:1,
-matchTime: 5000,
-      rules: [
-        {
-          fastQuery: true,
-          activityIds: null,
-          matches: '[vid="fvl"]',
-        },
-      ],
-    },
-  ],
-}
- {id: 'com.luna.music',
-  name: '汽水音乐',
-  groups: [
-    {
-      key: 2,
-      name: '关闭抖音推荐',
-      desc: '池与',
-      actionMaximum:1,
-matchTime: 5000,
-      rules: [
-        {
-          fastQuery: true,
-          activityIds: 'com.luna.biz.main.main.MainActivity',
-          matches: '[vid="gom"]',
-        },
-      ],
-    },
-  ],
-} 
-  {  id: 'com.tencent.mtt',
-  name: 'QQ浏览器',
-  groups: [
-    {
-      key: 1,
-    name: '开屏广告',
-    desc: '池与',
-    actionMaximum: 1,
-    resetMatch: 'app',
-      rules: [
-        {
-          fastQuery: true,
-          activityIds: null,
-          matches: '@[name="android.view.View"] < * >4 [text="向上滑动或点击按钮种花"]',
-        },
-      ],
-    },
-  ],
-}
+  apps: []
+
 
 }
+
