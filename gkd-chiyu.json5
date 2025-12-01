@@ -9,8 +9,9 @@
   //supportUri: 'https://gkd.li/',
   categories: [],//此订阅的应用规则分类列表
     globalGroups: [],//全局规则组列表
-  apps: []
+  apps: [],
 
 
 }
+
 
