@@ -13,11 +13,11 @@
 
 |                                             Github                                             | 
 | :--------------------------------------------------------------------------------------------: |
-| [链接](https://raw.githubusercontent.com/ganlinte/GKD-subscription/main/dist/ganlin_gkd.json5) |
+| [链接](https://raw.githubusercontent.com/chiyu33/GKD-CY/refs/heads/main/dist/gkd.chiyu.json5) |
 
 - Github
 ```txt
-https://raw.githubusercontent.com/ganlinte/GKD-subscription/main/dist/ganlin_gkd.json5
+https://raw.githubusercontent.com/chiyu33/GKD-CY/refs/heads/main/dist/gkd.chiyu.json5
 ```
 
 ## 说明
