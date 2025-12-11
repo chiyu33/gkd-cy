@@ -39,8 +39,8 @@ export default defineGkdApp({
     },
     {
       key: 5,
-      name: '关闭抖音推荐',
-      desc: '关闭主页面底部弹出的抖音推荐',
+      name: '关闭推荐',
+      desc: '关闭主页面底部弹出的推荐',
       actionMaximum: 1,
 
       matchTime: 5000,
