@@ -53,5 +53,12 @@
   "packageManager": "pnpm@10.22.0",
   "engines": {
     "node": ">=22"
+  },
+  "gkd": {
+    "outDir": "dist",
+    "file": "gkd.chiyu.json5",
+    "versionFile": "gkd.version.json5",
+    "changelog": "CHANGELOG.md",
+    "README.md": "README.md"
   }
 }
