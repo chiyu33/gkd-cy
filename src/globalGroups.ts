@@ -1,15 +1,11 @@
 //全局规则
 import { defineGkdGlobalGroups } from '@gkd-kit/define';
-import * as appList from './globalDefaultApps';
-
-export const OPEN_AD_ORDER = -10; // 开屏广告
-export const YOUTH_MODE_ORDER = -9; // 青少年模式
-export const UPDATE_PROMPT_ORDER = -8; // 更新提示
 export default defineGkdGlobalGroups([
   {
     key: 0,
     name: '开屏广告-全局',
-    order: OPEN_AD_ORDER,
+    enable: false,
+    order: 7,
     matchTime: 10000,
     fastQuery: true,
     resetMatch: 'app',
@@ -23,16 +19,12 @@ export default defineGkdGlobalGroups([
         matches: '[text*="跳过"][text.length<10][visibleToUser=true]',
       },
     ],
-    apps: [...appList.openAdBlackListAppIDs]
-      .map((id) => ({ id, enable: false }))
-      .concat(
-        [...appList.openAdWhiteListAppIDs].map((id) => ({ id, enable: true })),
-      ),
   },
   {
     key: 1,
     name: '青少年模式-全局',
-    order: YOUTH_MODE_ORDER,
+    enable: false,
+    order: 8,
     fastQuery: true,
     matchTime: 100000,
     actionMaximum: 1,
@@ -47,16 +39,12 @@ export default defineGkdGlobalGroups([
         ],
       },
     ],
-    apps: [...appList.yongBlackListAppIDs]
-      .map((id) => ({ id, enable: false }))
-      .concat(
-        [...appList.yongWhiteListAppIDs].map((id) => ({ id, enable: true })),
-      ),
   },
   {
     key: 2,
     name: '更新提示-全局',
-    order: UPDATE_PROMPT_ORDER,
+    enable: false,
+    order: 9,
     fastQuery: true,
     matchTime: 100000,
     actionMaximum: 1,
@@ -71,10 +59,5 @@ export default defineGkdGlobalGroups([
         ],
       },
     ],
-    apps: [...appList.updateBlackListAppIDs]
-      .map((id) => ({ id, enable: false }))
-      .concat(
-        [...appList.updateWhiteListAppIDs].map((id) => ({ id, enable: true })),
-      ),
   },
 ]);
