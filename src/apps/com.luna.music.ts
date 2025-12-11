@@ -42,11 +42,13 @@ export default defineGkdApp({
       name: '关闭抖音推荐',
       desc: '关闭主页面底部弹出的抖音推荐',
       actionMaximum: 1,
+
       matchTime: 5000,
       rules: [
         {
           matches: ['[vid="gom"]'],
           fastQuery: true,
+          snapshotUrls: 'https://i.gkd.li/i/24096594',
           activityIds: ['com.luna.biz.main.main.MainActivity'],
         },
       ],
@@ -61,6 +63,7 @@ export default defineGkdApp({
         {
           matches: ['[vid="fvl"]'],
           fastQuery: true,
+          snapshotUrls: 'https://i.gkd.li/i/24096812',
         },
       ],
     },
