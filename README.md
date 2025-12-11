@@ -11,7 +11,8 @@
 
 ## GKD 订阅链接
 
-|                                             Github                                             | :--------------------------------------------------------------------------------------------: |
+|                                             Github                                             | 
+| :--------------------------------------------------------------------------------------------: |
 | [链接](https://raw.githubusercontent.com/ganlinte/GKD-subscription/main/dist/ganlin_gkd.json5) |
 
 - Github
@@ -21,11 +22,13 @@ https://raw.githubusercontent.com/ganlinte/GKD-subscription/main/dist/ganlin_gkd
 
 ## 说明
 
-当前版本: v65
+当前版本: v2
 
 当前订阅文件已适配 606 个 APP, 共有 1383 规则组
 
 查看 [适配 APP 列表](./dist/README.md)
+
+查看[更新日志](dist/CHANGELOG.md)
 
 查看 [第三方订阅规则汇总](https://github.com/Adpro-Team/GKD_THS_List)
 
@@ -40,3 +43,5 @@ https://raw.githubusercontent.com/ganlinte/GKD-subscription/main/dist/ganlin_gkd
 [gkd-kit/subscription](https://github.com/gkd-kit/subscription)
 
 [gkd-kit/subscription-template](https://github.com/gkd-kit/subscription-template)
+
+[ganlinte/GKD-subscription](https://github.com/ganlinte/GKD-subscription)
