@@ -54,8 +54,8 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 1,
-      name: '全屏广告-领取vip关闭',
+      key: 0,
+      name: '开屏广告-领取vip关闭',
       desc: '关闭领取vip弹窗,避免误触',
       actionMaximum: 1,
       matchTime: 5000,
