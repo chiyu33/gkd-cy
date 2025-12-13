@@ -49,7 +49,7 @@ https://raw.githubusercontent.com/chiyu33/GKD-CY/refs/heads/main/dist/gkd.chiyu.
 
 查看[更新日志](dist/CHANGELOG.md)
 
-查看 [第三方订阅规则汇总](https://github.com/Adpro-Team/GKD_THS_List)
+查看 [第三方订阅列表](https://github.com/topics/gkd-subscription)
 
 [GKD官网](https://gkd.li/)
 
